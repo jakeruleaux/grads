@@ -6,9 +6,16 @@ const BackButton = () => {
 
     const navigate = useNavigate();
 
+    const StyledButton = styled.button`
+        color: blue;
+        border-color: blue;
+        border-radius: 5px;
+        margin-left: 10px;
+    `;
+
     return(
         <div>
-            <button onClick={() => navigate(-1)}>Back</button>
+            <StyledButton onClick={() => navigate(-1)}>Back</StyledButton>
         </div>
     );
 };
