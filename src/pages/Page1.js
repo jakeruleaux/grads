@@ -3,7 +3,7 @@ import React from 'react';
 const Page1 = () => {
     return(
         <div>
-            <p>1</p>
+            <p>Linear Gradient</p>
         </div>
     );
 };

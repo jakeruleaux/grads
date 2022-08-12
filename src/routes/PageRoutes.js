@@ -7,9 +7,9 @@ import Page3 from '../pages/Page3';
 const PageRoutes = () => {
     return(
     <Routes>
-      <Route exact path="/page1" component={Page1}/>
-      <Route exact path="/page2" component={Page2}/>
-      <Route exact path="/page3" component={Page3}/> 
+      <Route exact path="/page1" element={<Page1/>}/>
+      <Route exact path="/page2" element={<Page2 />}/>
+      <Route exact path="/page3" element={<Page3 />}/> 
     </Routes>
     );
 };

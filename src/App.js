@@ -11,8 +11,8 @@ function App() {
     <BrowserRouter>
       <div className="App">
         <SideBar />
+        <PageRoutes />
       </div>
-      <PageRoutes />
     </BrowserRouter>
   );
 }
