@@ -1,9 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const Page2 = () => {
+const Page4 = () => {
     const Wrapper = styled.div`
-        background:radial-gradient(circle at 50% 50%, rgba(255, 255, 0, 1) 0%, rgba(255, 255, 255, 1) 0%, rgba(238, 130, 238, 1) 100%);
+        background-image: repeating-linear-gradient(blue, skyblue 10%, white 20%);
         width: 100%;
     `;
 
@@ -14,9 +14,9 @@ const Page2 = () => {
 
     return(
         <Wrapper>
-            <Header>Radial Gradient</Header>
+            <Header>Repeat Gradient</Header>
         </Wrapper>
     );
 };
 
-export default Page2;
+export default Page4;
