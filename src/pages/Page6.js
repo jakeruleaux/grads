@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const Page5= () => {
+const Page6 = () => {
     const Wrapper = styled.div`
         background: darkgrey;
         width: 100%;
@@ -20,26 +20,27 @@ const Page5= () => {
     `;
 
     const Sphere = styled.div`
-        background:radial-gradient(circle at 50% top, rgba(255, 255, 0, 1) 0%, rgba(255, 255, 255, 1) 0%, rgba(238, 130, 238, 1) 100%);
         width: 400px;
         height: 400px;
         border-radius: 50%;
+        background: darkblue;
+        box-shadow: inset -25px -25px 40px rgba(0,0,0,.5);
     `;
 
     const Shadow = styled.div`
         width: 375px;
         height: 20px;
-        background: radial-gradient(ellipse farthest-corner at 45px 45px, rgba(50, 50, 50, 0.8) 0%, rgba(80, 80, 80, 0.2) );
+        background: radial-gradient(ellipse farthest-side at 45px 45px, rgba(50, 50, 50, 0.8) 0%, rgba(80, 80, 80, 0.2) );
         border-radius: 60%;
     `;
 
     return(
         <Wrapper>
-            <Header>Sphere Gradient</Header>
+            <Header>Sphere Shadow</Header>
             <Sphere />
             <Shadow />
         </Wrapper>
     );
 };
 
-export default Page5;
+export default Page6;

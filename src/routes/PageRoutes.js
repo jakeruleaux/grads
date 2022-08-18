@@ -5,6 +5,7 @@ import Page2 from '../pages/Page2';
 import Page3 from '../pages/Page3';
 import Page4 from '../pages/Page4';
 import Page5 from '../pages/Page5';
+import Page6 from '../pages/Page6';
 
 const PageRoutes = () => {
     return(
@@ -14,6 +15,7 @@ const PageRoutes = () => {
       <Route exact path="/page3" element={<Page3 />}/> 
       <Route exact path="/page4" element={<Page4 />}/> 
       <Route exact path="/page5" element={<Page5 />}/> 
+      <Route exact path="/page6" element={<Page6 />}/> 
     </Routes>
     );
 };
